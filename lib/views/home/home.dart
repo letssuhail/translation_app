@@ -17,7 +17,6 @@ class _HomeState extends State<Home> {
   final FlutterTts flutterTts = FlutterTts();
 
   String translatedText = "Translation";
-  // final veribale text tospeech
   final SpeechToText _speechToText = SpeechToText();
   bool _speechEnabled = false;
   String _wordspoken = "";
